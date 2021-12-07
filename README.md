@@ -1,28 +1,22 @@
 ---
-title: DeFi Toolkit by @gweicz
-tags: defi, ethereum, eth, smart-contract
-description: Curated list of best tools and resources for user of Ethereum (DeFi) ecosystem.
-image: https://i.imgur.com/r48kTSf.png
+title: Information Token DeFi Toolkit
+tags: defi, ethereum, eth, smart-contract, DAO, future, of, france
+description: Gabagool.eth-curated DeFi tools
+
 ---
 
-# DeFi Toolkit by [@gweicz](https://twitter.com/gweicz)
+# Information Token DeFi Toolkit - by Gabagool.eth (https://twitter.com/gabagooldoteth)
 
 [![hackmd-github-sync-badge](https://hackmd.io/m_QNVHFmSreR8Dttw50Fyg/badge)](https://hackmd.io/m_QNVHFmSreR8Dttw50Fyg)
 
-Curated list of best tools and resources for user of Ethereum (DeFi) ecosystem.
-
-Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-seznam-uzitecnych-nastroju/96) (in Czech language).
-
-## Legend
-
-| Link | Legend |
-| -------- | -------- |
-| :star:Item | must-have |
-| ==Item== | newly added |
+Curated tools for advanced DeFi users. 
 
 ## Table of Contents
-
-[TOC]
+I. Documentation
+II. Security
+III. Network & Nodes
+Blocks & Transactions
+Fees (gas)
 
 ## Documentation
 - :star:[`docs.ethhub.io`](https://docs.ethhub.io/)
@@ -54,14 +48,6 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [`ethtx.info`](https://ethtx.info/)
 
 ## Wallets
-- ["Ethereum Wallet Comparison" article](https://github.com/shanefontaine/ethereum-wallet-comparison)
-- [`sweeposaurus.com`](https://sweeposaurus.com/) - He'll make it easy to sweep all your tokens to a new address
-
-<!-- ## Supply
-- [ethsupply](https://github.com/madumas/ethsupply) - calculates the total amount of Eth ever issued[^ethsupply-source]
-- [supply.go](https://gist.github.com/karalabe/4cc4bb89a32a93a194803654753c3fac) -->
-
-## Fees (gas)
 
 ### Current Gas
 
@@ -73,6 +59,7 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [`blocknative.com/gas-estimator`](https://www.blocknative.com/gas-estimator)
 
 ### Historic Gas
+
 - [Ethereum Gas Charts @ `ethereumprice.org`](https://ethereumprice.org/gas/)
 - [`txpool.zengo.com`](https://txpool.zengo.com/) - Ethereum TxPool Statistics
 - [Gas Prices Dashboard @ `duneanalytics.com`](https://explore.duneanalytics.com/public/dashboards/qswVMdzbyiiZFdnCDSwx1jfYLOjdaokM4CSGNxsH)[^gas-dashboard-source]
@@ -80,6 +67,7 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [Gas Tracker @ `nansen.ai`](https://pro.nansen.ai/gas-tracker)
 
 ### Gas Tools
+
 - [Cancel Ethereum Transaction](https://cancel-ethereum-transactions.web.app/) ([source](https://github.com/mds1/Cancel-Ethereum-Transactions)) - micro dapp
 - [`fees.wtf`](https://fees.wtf/) - calculate how much gas you spend
 - [`txn.finance`](https://txn.finance/) - spend gas statistics[^txn-finance-src]
@@ -88,6 +76,7 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [`bscfee.wtf`](https://bscfee.wtf) - calculate how much gas you spent on the Binance Smart Chain
 
 ### Gas Tokens
+
 - :star: [Chi Gastoken](https://medium.com/@1inch.exchange/everything-you-wanted-to-know-about-chi-gastoken-a1ba0ea55bf3) - everything you wanted to know
 - [GasToken Miner](https://forum.saturn.network/t/how-to-use-gastoken-miner/2433) - script for mining GST1, GST2, CHI
 - [Automated buying of Chi Tokens @ `hal.xyz`](https://9000.hal.xyz/recipes/1inch-buy-chi-token)
@@ -95,21 +84,25 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 
 
 ## Private Key & Address
+
 - [`iancoleman.io/bip39`](https://iancoleman.io/bip39/) - BIP39 derivation (mnemonic)
 - [profanity](https://github.com/johguse/profanity) - high performance vanity generator (incl. GPU)
 - [`vanity-eth.tk`](https://vanity-eth.tk/) ([source](https://github.com/bokub/vanity-eth)) - web variant
 - [Vanity Eth generators @ `github.com`](https://github.com/search?q=eth+vanity)
 
 ## Recovery
+
 - [`findeth.io`](https://findeth.io/) - find your lost Ether or address
 
 ## Meta Transactions
+
 - [`furucombo.app`](https://furucombo.app/) - transaction "combo"
 - [`disperse.app`](https://disperse.app/) - distribute ether or tokens to multiple addresses
 - [`bulksender.app`](https://bulksender.app/)
 - [erc20-meta-token](https://github.com/arcadeum/erc20-meta-token) - wrapper for meta-transaction with any ERC-20
 
 ## Custom Transactions
+
 - [Send Offline Helper](https://www.myetherwallet.com/send-offline-helper)
 - [Broadcast Raw Transaction @ `etherscan.io`](https://etherscan.io/pushTx)
 - [Get Raw Transaction Hex @ `etherscan.io`](https://etherscan.io/getRawTx?tx=0xeb20185d7be6012b4753d17707b0f776511c4db3ecf65ad7dbdc660964e0864f)
@@ -117,15 +110,18 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [Ethereum input data decoder](https://lab.miguelmota.com/ethereum-input-data-decoder) ([source](https://github.com/miguelmota/ethereum-input-data-decoder))
 
 ## Automation
+
 - [`hal.xyz`](https://www.hal.xyz/)
 
 ## Allowances
+
 - [Token Approvals @ `etherscan.io`](https://etherscan.io/tokenapprovalchecker)
 - [`tac.dappstar.io`](https://tac.dappstar.io/) - Token Allowance Checker
 - [`revoke.cash`](https://revoke.cash/)
 - [`approved.zone`](https://approved.zone/)
 
 ## Portfolio Trackers
+
 - :star:[`zapper.fi`](https://www.zapper.fi/)
 - :star:[`zerion.io`](https://app.zerion.io/)
 - [`debank.com`](https://debank.com/)
@@ -149,24 +145,30 @@ Updates in [this thread on our forum](https://forum.gwei.cz/t/defi-toolkit-sezna
 - [`dexindex.io`](https://dexindex.io/)
 
 ## Communication
+
 - [`ethmail.cc`](https://ethmail.cc/) - mailbox for all people who have Ethereum wallet
 - ==[`ourspaces.xyz`](https://ourspaces.xyz) - message anyone on Ethereum==
 
 ## Mempool Data
+
 - [`Blocknative.com`](https://blocknative.com/) - a composable mempool data platofrm. Watch any address for real-time status updates
 
 ## Prediction Markets
+
 - [`predictions.exchange`](https://www.predictions.exchange/) - list of markets (Augur, Omen, Flux in future)
 - [`predictionexplorer.com`](https://predictionexplorer.com)
 
 ## Oracles
+
 - [`oracles.club`](https://oracles.club/) - overview of all oracles (Maker, Chainlink, ..)
 
 ## DAOs
+
 - [`deepdao.world`](http://deepdao.world/) - overview of all DAOs (Aragon, Moloch, ..)
 <!-- - [`daometrics.com`](https://daometrics.com/) -->
 
 ## BTC on Ethereum
+
 - [`btconethereum.com`](https://btconethereum.com/)
 - [BTC on ETH Graph @ `predictions.exchange`](http://www.predictions.exchange/ethbtc/)
 - [BTC on Ethereum @ `dunenalytics.com`](https://explore.duneanalytics.com/public/dashboards/ffM8FLsAcRYLcGc0JdaoU6oLOk8ThGXZ9cJ1XKJn)
